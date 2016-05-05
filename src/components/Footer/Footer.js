@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return (
       <footer>
         <span id="footer-text-wrap">
-          Footer Section
+          <p> Running on Elastic Beanstalk.</p>
         </span>
       </footer>
     );
