@@ -14,7 +14,6 @@ class App extends Component {
     const { counter, actions } = this.props;
     return (
       <div className="main-app-container">
-        <p> CI Passing??? </p>
         <div styleName="header">Webpack Redux Boilerplate</div>
         <img src={logo} alt="logo" />
         <Counter counter={counter} actions={actions} />
